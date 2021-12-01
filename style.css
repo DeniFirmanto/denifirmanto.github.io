@@ -41,7 +41,7 @@ h1 {
 }
 
 hr {
-  width: 600px;
+  width: 200px;
   border-top: 2px solid black;
   margin: auto;
 }
@@ -62,4 +62,12 @@ section {
 /* Projects */
 #projects {
   background-color: #e2edff;
+}
+
+@media (min-width: 992px) {
+  hr {
+    width: 600px;
+    border-top: 2px solid black;
+    margin: auto;
+  }
 }
